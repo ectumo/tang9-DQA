@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char *pt = "LaoJiuJun"; //字符数组
+    printf("\n [%c] [%p]\n", *pt); //*pt，pt[0]第一个元素，L
+    printf("\n [%c] \n", *(pt + 1));//*(pt + 1)=> pt[1]第二个元素，a
+    printf("\n [%c] \n", *++pt);//*pt++指针位置增加
+    printf("\n [%c] \n", *pt);
+    return 0;
+}
